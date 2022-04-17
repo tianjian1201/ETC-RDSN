@@ -4,7 +4,7 @@ This repository is for A Novel Encryption-Then-Lossy-Compression Scheme of Color
 Chuntao Wang, Tianjian Zhang, Hao Chen, Qiong Huang, Jiangqun Ni, Xinpeng Zhang"A Novel Encryption-Then-Lossy-Compression Scheme of Color Images Using Customized Residual Dense Spatial Network", IEEE Transactions on Multimedia(TMM), 2022.
 
 
-If you use any part of our code, or ETC-RDSN is useful for your research, please consider citing::
+If you use any part of our code, or ETC-RDSN is useful for your research, please consider citing:
 ```
 @article{wang2022a,
   title={A Novel Encryption-Then-Lossy-Compression Scheme of Color Images Using Customized Residual Dense Spatial Network},
@@ -38,8 +38,8 @@ Nowadays it has still remained as a big challenge to efficiently compress color 
 ### Installation
 - Clone this repo:
 ```bash
-git clone xxx
-cd xxx
+git clone https://github.com/tianjian1201/ETC-RDSN
+cd ETC-RDSN
 ```
 
 - Download weights from [Google Drive](https://drive.google.com/drive/folders/1XJueynAz4COLPbctbdvolpS21Jm5THde?usp=sharing).
@@ -50,6 +50,8 @@ Download the DIV2K and benchmark dataset. More details about training and testin
 cd src
 sh demo.sh
 ```
+
+Arithmetic coding calculating refer to [here](/src/ac_tool/FastAC_Readme.pdf).
 
 ## Acknowledgments
 Code largely benefits from [EDSR-Pytorch](https://github.com/sanghyun-son/EDSR-PyTorch). We thank the authors for sharing their codes. 
